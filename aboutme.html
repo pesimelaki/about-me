@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jana Georgievski</title>
+        <link rel="stylesheet" type="text/css" href="myStyle.css">
+        <script src= "myJS.js"></script>
+    </head>
+
+        <body>
+<pre>
+
+<button id= "button1" type= "button" >press me to change color!</button>
+
+<h1 id="name" onmouseover="changeColor()">Jana Georgievski</h1>
+<button onclick="rainOrNah()">click to make it rain! </button>
+<img src="https://static.tumblr.com/6f05c21528fa74066974329ec56b9805/swlrwnc/EqNnxelw5/tumblr_static_tumblr_static_4snheh9iw8e8s4wgw4cscc84w_640.gif" id="cloud"/>
+<img src="http://gifimage.net/wp-content/uploads/2018/04/rain-gif-transparent-13.gif" id="rain" onload="document.getElementById('rain').style.display='none' "/>
+<script>
+function rainOrNah() {
+    var y = document.getElementById("rain");
+    if (y.style.display === "initial") {
+        y.style.display = "none";
+    } else {
+        y.style.display = "initial";
+    }
+}
+
+function changeColor() {
+    var z = document.getElementsByTagName("h1");
+    for (var i = 0; i < 6; i++) {
+        if (z[i].style.color === "black") {
+            z[i].style.color = "white";
+        } else {
+            z[i].style.color = "black";
+        }
+    }
+}
+</script>
+
+<div class="centered">
+Aragon High School Class President
+Python, HTML/CSS, & Javascript
+Vintage Fashion & Modeling
+Special Effects Makeup
+Social Justice
+16
+</div>
+<h1>Leadership</h1>
+2017-18 Sophomore Class Vice President
+2018-19 Junior Class President
+
+<h1>Coding languages</h1>
+Python
+HTML/CSS
+JavaScript
+
+<h1>Modeling</h1>
+I take inspiration from 70's, 80's & 90's clothing.
+Soon
+<strong><a href="https://www.instagram.com/floremagna/">My style on Instagram</a></strong>
+
+<h1>Social Justice</h1>
+In March 2018, after the Parkland shooting, I helped organize a
+San Mateo-to-San Francisco march against lenient gun control laws.
+About 20 other teens from four other high schools and I partnered
+with March For Our Lives, an organization led "by students for
+students". As people who didn't feel safe in our own schools, we took
+the initiative to bring on change. After planning logistics, my specific
+task was social media facilitation and publisizing the march.
+
+<h1>SFX makeup</h1>
+<button onclick="myFunction()">click to vanquish the monster</button>
+
+<img src= "monster.png" id="monster">
+Halloween 2016
+
+<script>
+function myFunction() {
+    var x = document.getElementById("monster");
+    if (x.style.display === "none") {
+        x.style.display = "initial";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+    </pre>
+        </body>
+</html>

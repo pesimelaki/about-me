@@ -1,0 +1,44 @@
+h1 {
+    text-align:center;
+}
+
+pre {
+    text-align:center;
+    font-size:15px;
+    position: relative;
+}
+
+
+
+#cloud {
+    height:300px;
+    width:1300px;
+    image-align:middle;
+    top:50px;
+    left:100px;
+
+}
+.name {
+
+}
+
+#monster {
+    height:400px;
+    width:400px;
+    border:5px dotted white;
+    outline-offset:10px;
+}
+
+body {
+    background:linear-gradient(#add4ff, #ffb6c1);
+}
+
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:20px;
+    margin:0%;
+    text-align: center;
+}

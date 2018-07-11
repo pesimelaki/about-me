@@ -24,14 +24,14 @@ function rainOrNah() {
     }
 }
 
-function changeColor() {
+function changeColor(h1index) {
     
     for (var i = 0; i < 6; i++) {
         var z = document.getElementsByTagName("h1");
-        if (z[i].style.color === "black") {
-            z[i].style.color = "white";
+        if (z[h1index].style.color === "black") {
+            z[h1index].style.color = "white";
         } else {
-            z[i].style.color = "black";
+            z[h1index].style.color = "black";
         }
     }
 }
@@ -56,7 +56,6 @@ JavaScript
 
 <h1 onmouseover="changeColor()">Modeling</h1>
 I take inspiration from 70's, 80's & 90's clothing.
-Soon
 <strong><a href="https://www.instagram.com/floremagna/">My style on Instagram</a></strong>
 
 <h1 onmouseover="changeColor()">Social Justice</h1>
